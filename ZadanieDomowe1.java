@@ -11,7 +11,7 @@ public class ZadanieDomowe1 {
             System.out.println("Osoba jest młoda");
         } else if (humanAge >= 40 && humanAge < 65) {
             System.out.println("Osoba jest w średnim wieku");
-        } else if (humanAge >= 65) {
+        } else (humanAge >= 65) {
             System.out.println("Osoba jest starsza");
         }
     }
