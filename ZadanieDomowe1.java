@@ -1,6 +1,6 @@
 public class ZadanieDomowe1 {
     public static void main(String[] args) {
-        int humanAge = 21;
+        int humanAge = 81;
 
         if (humanAge < 0) return;
         if (humanAge > 130) return;
@@ -11,7 +11,7 @@ public class ZadanieDomowe1 {
             System.out.println("Osoba jest młoda");
         } else if (humanAge >= 40 && humanAge < 65) {
             System.out.println("Osoba jest w średnim wieku");
-        } else (humanAge >= 65) {
+        } else  {
             System.out.println("Osoba jest starsza");
         }
     }
